@@ -11,7 +11,13 @@
 <style lang="scss">
   @import "~bulma/css/bulma.css";
 
-  // .fa-thumbs-up {
-  //   color: blue
-  // }
+  .fa-star{
+    color: gold
+  }
+  .fa-thumbs-up {
+    color: green
+  }
+  .fa-thumbs-down{
+    color: maroon
+  }
 </style>

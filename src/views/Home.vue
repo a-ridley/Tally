@@ -45,7 +45,7 @@
           <div class="column">
             <CategoryCard
               title="Education"
-              subtitle="<insert joke here>"
+              subtitle='"Develop a passion for learning. If you do, you will never cease to grow." -Anthony J D`Angelo '
               backgroundimage="https://www.roundsconsulting.com/wp-content/uploads/2018/09/education.jpg"
               :categoryId="2"
             />
@@ -53,9 +53,9 @@
 
           <div class="column">
             <CategoryCard
-              title="Outreach"
-              subtitle="<insert joke here>"
-              backgroundimage="https://www.roundsconsulting.com/wp-content/uploads/2018/09/education.jpg"
+              title="Local Events"
+              subtitle='"Social media is not about the exploitation of technology but service to community" -Simon Mainwaring'
+              backgroundimage="https://new.linguistlist.org/static/img/LocalEvents.png"
               :categoryId="4"
             />
           </div>
@@ -63,7 +63,8 @@
       </div>
 
       <div class="column is-3">
-        <CategoryCard title="Trending Now!" subtitle="<insert stuff here>"/>
+        <CategoryCard title="Trending Now!" subtitle="Highest Voted"/>
+            <font-awesome-icon :icon="['far', 'star']" fixed-width/>
       </div>
     </div>
   </div>

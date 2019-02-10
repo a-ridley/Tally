@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <header class="card-header">
-      <p class="card-header-title">Component</p>
+      <p class="card-header-title">Title</p>
       <a href="#" class="card-header-icon" aria-label="more options">
         <span class="icon">
           <i class="fas fa-angle-down" aria-hidden="true"></i>
@@ -11,20 +11,15 @@
     <div class="card-content">
       <div class="content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-        <a
-          href="#"
-        >@bulmaio</a>.
-        <a href="#">#css</a>
-        <a href="#">#responsive</a>
         <br>
         <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
       </div>
     </div>
     <footer class="card-footer">
-      <a href="#" class="card-footer-item">Save</a>
-      <a href="#" class="card-footer-item">Edit</a>
-      <div>
-        <font-awesome-icon icon="thumbs-up"/>
+        <div>
+      <font-awesome-icon :icon="['far', 'star']" fixed-width/>
+        <font-awesome-icon :icon="['far', 'thumbs-up']"/>
+        <font-awesome-icon :icon="['far', 'thumbs-down']"/>
       </div>
     </footer>
     <footer class="card-footer">
