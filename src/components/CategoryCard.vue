@@ -34,7 +34,7 @@ export default class CategoryCard extends Vue {
   @Prop(Number) public categoryId!: number;
 
   private _openCategory(categoryId: number) {
-    this.$router.push({ name: "petitions", params: { categoryId } as Dictionary<any> });
+    this.$router.push({ name: "petitions", params: { categoryId, title: this.title } as Dictionary<any> });
   }
 }
 </script>
