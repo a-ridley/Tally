@@ -54,8 +54,10 @@ import { Route } from "vue-router";
 
 @Component
 export default class PetitionCard extends Vue {
-  private created() {
-    console.log(this.$route.params);
+  private categoryId!: number;
+
+  private beforeCreate() {
+    this.categoryId = this.$route.params.categoryId as any;
   }
 }
 </script>

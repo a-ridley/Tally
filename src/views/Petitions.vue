@@ -3,6 +3,11 @@
     <Navbar/>
     <div class="columns">
       <div class="column is-5 is-offset-1">
+        <PetitionAdder :categoryId="categoryId"/>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-5 is-offset-1">
         <div class="columns">
           <div class="column">
             <PetitionCard title="WOOO"/>
@@ -19,13 +24,22 @@ import { Component, Vue } from "vue-property-decorator";
 import CategoryCard from "@/components/CategoryCard.vue"; // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
 import PetitionCard from "@/components/PetitionCard.vue";
+import PetitionAdder from "@/components/PetitionAdder.vue";
+import { Route } from "vue-router";
 
 @Component({
   components: {
     CategoryCard,
     Navbar,
     PetitionCard,
+    PetitionAdder,
   },
 })
-export default class Petitions extends Vue {}
+export default class Petitions extends Vue {
+  private categoryId!: number;
+
+  private created() {
+    this.categoryId = this.$route.params.categoryId as any;
+  }
+}
 </script>
