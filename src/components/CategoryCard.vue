@@ -19,29 +19,6 @@
       </div>
     </div>
   </div>
-
-  <!-- <div :class="'card ' + background_image">
-  <div class="card-content">
-    <p class="title">
-      {{ title }}
-    </p>
-    <p class="subtitle">
-      {{subtitle}}
-    </p>
-  </div>
-  <footer class="card-footer">
-    <p class="card-footer-item">
-      <span>
-        View on <a href="https://twitter.com/codinghorror/status/506010907021828096">Twitter</a>
-      </span>
-    </p>
-    <p class="card-footer-item">
-      <span>
-        Share on <a href="#">Facebook</a>
-      </span>
-    </p>
-  </footer>
-  </div>-->
 </template>
 
 <script lang="ts">

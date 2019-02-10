@@ -2,11 +2,12 @@
   <div>
     <Navbar/>
     <div class="columns">
-      <div class="column is-5 is-offset-1">
-        <div class="columns">
-          <div class="column">
-            <PetitionCard title="WOOO"/>
-          </div>
+      <div class="column">
+          <div class="column is-6 is-offset-3">
+            <PetitionCard/>
+            <div class="column">
+              <PetitionCard/>
+            </div>
         </div>
       </div>
     </div>
