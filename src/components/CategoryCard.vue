@@ -1,26 +1,24 @@
 <template>
-<div class="card">
-  <div :class="'card-image'">
-    <figure class="image is-2by1">
-      <img :src="backgroundimage" class="image">
-    </figure>
-  </div>
-  <div class="card-content is-flex is-horizontal-center">
-    <div class="media">
-      <div class="media-left">
+  <div class="card">
+    <div :class="'card-image'">
+      <figure class="image is-2by1">
+        <img :src="backgroundimage" class="image">
+      </figure>
+    </div>
+    <div class="card-content is-flex is-horizontal-center">
+      <div class="media">
+        <div class="media-left"></div>
+        <div class="media-content">
+          <p class="title is-4">{{title}}</p>
+          <p class="subtitle is-6">{{subtitle}}</p>
+        </div>
       </div>
-      <div class="media-content ">
-        <p class="title is-4">{{title}}</p>
-        <p class="subtitle is-6">{{subtitle}}</p>
+
+      <div class="content">
+        <br>
       </div>
     </div>
-
-    <div class="content">
-      <br>
-    </div>
   </div>
-</div>
-
 
   <!-- <div :class="'card ' + background_image">
   <div class="card-content">
@@ -43,11 +41,11 @@
       </span>
     </p>
   </footer>
-</div> -->
+  </div>-->
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class CategoryCard extends Vue {

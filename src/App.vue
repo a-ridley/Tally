@@ -10,10 +10,4 @@
 
 <style lang="scss">
   @import "~bulma/css/bulma.css";
-
-  // .card {
-  //   background-color: red;
-  // }
-
-
 </style>
