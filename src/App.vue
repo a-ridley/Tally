@@ -10,4 +10,8 @@
 
 <style lang="scss">
   @import "~bulma/css/bulma.css";
+
+  // .fa-thumbs-up {
+  //   color: blue
+  // }
 </style>

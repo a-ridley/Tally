@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import App from './App.vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faThumbsUp} from '@fortawesome/free-solid-svg-icons';
+import { faThumbsUp} from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon} from '@fortawesome/vue-fontawesome';
 import { faFacebookSquare, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import router from './router';
