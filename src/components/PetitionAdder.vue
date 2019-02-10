@@ -38,12 +38,12 @@ import { TallyBackend } from "../services/tally-backend";
 
 @Component
 export default class PetitionAdder extends Vue {
-  @Prop(Number) public categoryId!: number;
-  public client!: TallyBackend.Client;
-  public title: string = "";
-  public description: string = "";
+  @Prop(Number) private categoryId!: number;
+  private client!: TallyBackend.Client;
+  private title: string = "";
+  private description: string = "";
 
-  private created() {
+  private beforeCreate() {
     this.client = new TallyBackend.Client("http://tallyapi.abicastro.com");
   }
 
