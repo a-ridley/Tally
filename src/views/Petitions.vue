@@ -14,7 +14,6 @@
       </div>
       <div class="column is-3">
         <CategoryCard title="Trending Now!" subtitle="Highest Voted"/>
-        <font-awesome-icon :icon="['far', 'star']" fixed-width/>
       </div>
     </div>
 
