@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="tally.abicastro.com">
+    <a class="navbar-item" href="/">
       <img src="@/assets/TallyLogo.png"  width="145" height="28">
     </a>
 
