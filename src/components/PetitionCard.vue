@@ -9,15 +9,16 @@
       </a>
     </header>
     <div class="card-content">
-      <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+      <div
+        class="content"
+      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
         <br>
         <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
       </div>
     </div>
     <footer class="card-footer">
-        <div>
-      <font-awesome-icon :icon="['far', 'star']" fixed-width/>
+      <div>
+        <font-awesome-icon :icon="['far', 'star']" fixed-width/>
         <font-awesome-icon :icon="['far', 'thumbs-up']"/>
         <font-awesome-icon :icon="['far', 'thumbs-down']"/>
       </div>

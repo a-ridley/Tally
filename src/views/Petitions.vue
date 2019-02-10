@@ -2,11 +2,15 @@
   <div>
     <Navbar/>
     <div class="columns">
-
       <div class="column is-7 is-offset-1">
         <PetitionAdder :categoryId="categoryId"/>
       </div>
+      <div class="column is-3">
+        <CategoryCard title="Trending Now!" subtitle="Highest Voted"/>
+        <font-awesome-icon :icon="['far', 'star']" fixed-width/>
+      </div>
     </div>
+
     <div class="columns">
       <div class="column is-7 is-offset-1">
         <PetitionCard title="WOOO"/>

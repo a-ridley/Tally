@@ -2,7 +2,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="tally.abicastro.com">
-      <img src="@/assets/logo.png"  width="60" height="28">
+      <img src="@/assets/TallyLogo.png"  width="145" height="28">
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
