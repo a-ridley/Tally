@@ -50,7 +50,12 @@
 
 <script lang ="ts">
 import { Component, Vue } from "vue-property-decorator";
+import { Route } from "vue-router";
 
 @Component
-export default class PetitionCard extends Vue {}
+export default class PetitionCard extends Vue {
+  private created() {
+    console.log(this.$route.params);
+  }
+}
 </script>
