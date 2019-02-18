@@ -35,7 +35,7 @@
       <p class="card-footer-item">
         <a href="https://facebook.com">
           <span>Share on
-            <font-awesome-icon :icon="['fab', 'facebook-square']" fixed-width/>
+            <font-awesome-icon :icon="['fab', 'facebook']" fixed-width/>
           </span>
         </a>
       </p>
